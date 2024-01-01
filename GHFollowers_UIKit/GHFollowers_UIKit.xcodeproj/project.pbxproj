@@ -15,6 +15,8 @@
 		E0639ACD2B420C310066AF47 /* FavoriteListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0639ACC2B420C310066AF47 /* FavoriteListVC.swift */; };
 		E0639ACF2B4253570066AF47 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0639ACE2B4253570066AF47 /* GFButton.swift */; };
 		E0639AD12B4256AE0066AF47 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0639AD02B4256AE0066AF47 /* GFTextField.swift */; };
+		E0F802C52B43446C00746BFC /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F802C42B43446C00746BFC /* FollowerListVC.swift */; };
+		E0F802C72B434FEA00746BFC /* String+GHFollowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F802C62B434FEA00746BFC /* String+GHFollowers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E0639ACC2B420C310066AF47 /* FavoriteListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListVC.swift; sourceTree = "<group>"; };
 		E0639ACE2B4253570066AF47 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		E0639AD02B4256AE0066AF47 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		E0F802C42B43446C00746BFC /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
+		E0F802C62B434FEA00746BFC /* String+GHFollowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+GHFollowers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +67,12 @@
 				E0639AC42B4201900066AF47 /* Info.plist */,
 				E0639AB62B42018F0066AF47 /* AppDelegate.swift */,
 				E0639ACC2B420C310066AF47 /* FavoriteListVC.swift */,
+				E0F802C42B43446C00746BFC /* FollowerListVC.swift */,
 				E0639ACE2B4253570066AF47 /* GFButton.swift */,
 				E0639AD02B4256AE0066AF47 /* GFTextField.swift */,
 				E0639AB82B42018F0066AF47 /* SceneDelegate.swift */,
 				E0639ACA2B420A770066AF47 /* SearchVC.swift */,
+				E0F802C62B434FEA00746BFC /* String+GHFollowers.swift */,
 				E0639ABF2B4201900066AF47 /* Assets.xcassets */,
 				E0639AC12B4201900066AF47 /* LaunchScreen.storyboard */,
 			);
@@ -144,9 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0639AD12B4256AE0066AF47 /* GFTextField.swift in Sources */,
+				E0F802C72B434FEA00746BFC /* String+GHFollowers.swift in Sources */,
 				E0639ACD2B420C310066AF47 /* FavoriteListVC.swift in Sources */,
 				E0639ACF2B4253570066AF47 /* GFButton.swift in Sources */,
 				E0639ACB2B420A770066AF47 /* SearchVC.swift in Sources */,
+				E0F802C52B43446C00746BFC /* FollowerListVC.swift in Sources */,
 				E0639AB72B42018F0066AF47 /* AppDelegate.swift in Sources */,
 				E0639AB92B42018F0066AF47 /* SceneDelegate.swift in Sources */,
 			);
