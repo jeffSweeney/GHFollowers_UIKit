@@ -17,4 +17,13 @@ class FollowerListVC: UIViewController {
         navigationController?.isNavigationBarHidden = false
         navigationController?.navigationBar.prefersLargeTitles = true
     }
+    
+    // Required for edge case bug where you partially SWIPE back but don't complete the action and bounce back to this screen.
+    // - SearchVC (even though we don't fully land on the screen) runs its viewWillAppear and hides the nav bar
+    // - This VC now needs to unhide it as it reappears since viewDidLoad is only ran once on first landing
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        navigationController?.setNavigationBarHidden(false, animated: true) // Partial swipe makes animation snappy without this
+    }
 }
