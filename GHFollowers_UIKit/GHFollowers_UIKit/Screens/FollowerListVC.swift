@@ -16,6 +16,16 @@ class FollowerListVC: UIViewController {
         view.backgroundColor = .systemBackground
         navigationController?.isNavigationBarHidden = false
         navigationController?.navigationBar.prefersLargeTitles = true
+        
+        NetworkManager.shared.getFollowers(for: username, page: 1) { followers, error in
+            guard let followers = followers else {
+                self.presentGFAlertOnMainThread(title: "Bad Stuff Happened!", message: error!, buttonTitle: "Ok")
+                return
+            }
+            
+            print("Follower count: \(followers.count)")
+            print("Followers: \(followers)")
+        }
     }
     
     // Required for edge case bug where you partially SWIPE back but don't complete the action and bounce back to this screen.
