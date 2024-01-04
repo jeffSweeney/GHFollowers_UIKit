@@ -10,6 +10,7 @@
 		E0560CC42B443D55003707CA /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0560CC32B443D55003707CA /* Follower.swift */; };
 		E0560CC62B443E1A003707CA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0560CC52B443E1A003707CA /* User.swift */; };
 		E0560CC92B45D0C2003707CA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0560CC82B45D0C2003707CA /* NetworkManager.swift */; };
+		E0560CCC2B46DFB7003707CA /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0560CCB2B46DFB7003707CA /* ErrorMessage.swift */; };
 		E0639AB72B42018F0066AF47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0639AB62B42018F0066AF47 /* AppDelegate.swift */; };
 		E0639AB92B42018F0066AF47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0639AB82B42018F0066AF47 /* SceneDelegate.swift */; };
 		E0639AC02B4201900066AF47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0639ABF2B4201900066AF47 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		E0560CC32B443D55003707CA /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		E0560CC52B443E1A003707CA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E0560CC82B45D0C2003707CA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E0560CCB2B46DFB7003707CA /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		E0639AB32B42018F0066AF47 /* GHFollowers_UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers_UIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0639AB62B42018F0066AF47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0639AB82B42018F0066AF47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		E0560CCA2B46DFA7003707CA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E0560CCB2B46DFB7003707CA /* ErrorMessage.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		E0639AAA2B42018F0066AF47 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		E0639AB52B42018F0066AF47 /* GHFollowers_UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				E0560CCA2B46DFA7003707CA /* Utilities */,
 				E0639AC42B4201900066AF47 /* Info.plist */,
 				E0F802D42B43ACA400746BFC /* CustomViews */,
 				E0F802D52B43ACD100746BFC /* Extensions */,
@@ -222,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0F802CF2B439CCC00746BFC /* GFAlertContainerView.swift in Sources */,
+				E0560CCC2B46DFB7003707CA /* ErrorMessage.swift in Sources */,
 				E0560CC42B443D55003707CA /* Follower.swift in Sources */,
 				E0639AD12B4256AE0066AF47 /* GFTextField.swift in Sources */,
 				E0F802C72B434FEA00746BFC /* String+GHFollowers.swift in Sources */,
