@@ -107,7 +107,6 @@
 		E0639AB52B42018F0066AF47 /* GHFollowers_UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				E0560CCA2B46DFA7003707CA /* Utilities */,
 				E0639AC42B4201900066AF47 /* Info.plist */,
 				E0F802D42B43ACA400746BFC /* CustomViews */,
 				E0F802D52B43ACD100746BFC /* Extensions */,
@@ -115,6 +114,7 @@
 				E0560CC22B443D4C003707CA /* Model */,
 				E0F802D32B43AC3E00746BFC /* Screens */,
 				E0F802D62B43AD3400746BFC /* Support */,
+				E0560CCA2B46DFA7003707CA /* Utilities */,
 			);
 			path = GHFollowers_UIKit;
 			sourceTree = "<group>";
